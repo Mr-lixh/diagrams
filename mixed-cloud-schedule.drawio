@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T12:04:20.588Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ZggQN1SC75F1_gKwfMEL" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-06T12:06:11.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="iVcHrEqnaO3KyCMvgBhy" version="18.0.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="949" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,8 +36,18 @@
         <mxCell id="95L0d4QCPJ5GGRwDY32Z-71" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="95L0d4QCPJ5GGRwDY32Z-52" target="95L0d4QCPJ5GGRwDY32Z-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tLtRer-awA9A_FZvjac0-30" value="专线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="95L0d4QCPJ5GGRwDY32Z-71">
+          <mxGeometry x="0.2411" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tLtRer-awA9A_FZvjac0-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="95L0d4QCPJ5GGRwDY32Z-52" target="tLtRer-awA9A_FZvjac0-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLtRer-awA9A_FZvjac0-31" value="专线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tLtRer-awA9A_FZvjac0-2">
+          <mxGeometry x="0.0217" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="95L0d4QCPJ5GGRwDY32Z-52" value="APISERVER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="124" y="270" width="90" height="30" as="geometry" />
@@ -158,7 +168,7 @@
         <mxCell id="tLtRer-awA9A_FZvjac0-20" value="ECS02" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="400" y="350" width="66" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tLtRer-awA9A_FZvjac0-28" value="创建/销毁ECS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="tLtRer-awA9A_FZvjac0-28" value="创建/销毁ECS资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="389" y="228" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
