@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T13:25:48.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="egwQUMMgUmRAWhiUvYX7" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T13:26:07.581Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="oFNq0_kW-ZU7b1XkFklq" version="19.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
             <mxPoint x="47" y="1326.17" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-90" value="滚动更新异常" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-90" value="滚动更新异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
           <mxGeometry x="63" y="1287" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-7" value="S3" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
