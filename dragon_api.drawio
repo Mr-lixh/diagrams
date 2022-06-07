@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T09:14:05.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="E_6A4TyfYd4iwuOztj0C" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T09:16:04.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="yspcJBT1gZSBXtXmmmse" version="19.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="485" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -89,7 +89,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
-          <mxGeometry x="45" y="340" width="10" height="30" as="geometry" />
+          <mxGeometry x="45" y="340" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-31" value="返回patch version" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;entryX=0.077;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xoV1Sry97TsbXiUux0vx-6" target="xoV1Sry97TsbXiUux0vx-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-146.00000000000023" y="370.33" as="sourcePoint" />
+            <mxPoint x="40" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-7" value="S3" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="70" width="100" height="610" as="geometry" />
@@ -102,6 +108,15 @@
             <mxPoint x="-345.01282051282055" y="305" as="sourcePoint" />
             <mxPoint x="50" y="304.99999999999994" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-32" value="用户态资源校验、资源拉取" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.191;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xoV1Sry97TsbXiUux0vx-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-144.90999999999997" y="358.16999999999996" as="sourcePoint" />
+            <mxPoint x="46.999999999999886" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-7">
+          <mxGeometry x="45" y="357" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-8" value="部署平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="70" width="100" height="610" as="geometry" />
@@ -137,6 +152,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="595" y="345.16999999999996" as="sourcePoint" />
             <mxPoint x="988.5" y="345.1700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-34" value="返回资源" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;entryX=0.077;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795.9999999999998" y="456.3299999999999" as="sourcePoint" />
+            <mxPoint x="987.77" y="456.6400000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
