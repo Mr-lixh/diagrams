@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T12:19:33.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="F5oy8h_nbMh5xDlVJwv1" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T12:23:19.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="sWcuBk2LKS0qo7bd3A1r" version="19.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="757" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -302,6 +302,15 @@
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-61" value="服务加载本地patch和模型资源" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1382" y="870" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-62" value="回调灰度状态" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595.9999999999998" y="934.3299999999999" as="sourcePoint" />
+            <mxPoint x="782" y="934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-63" value="暂时无法回调灰度节点的端口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="880" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
