@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T11:43:32.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="x15ZV5ubgT7kI722Rb7A" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T12:00:37.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Qa0pLNX3N-xbuJURbZg2" version="19.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="485" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
           <mxGeometry x="740" y="69" width="100" height="981" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
-          <mxGeometry x="45" y="84" width="10" height="30" as="geometry" />
+          <mxGeometry x="45" y="91" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-29" value="提交用户态资源s3信息及全量描述" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.191;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xoV1Sry97TsbXiUux0vx-6">
           <mxGeometry relative="1" as="geometry">
@@ -96,6 +96,9 @@
             <mxPoint x="-145.00000000000023" y="370.33" as="sourcePoint" />
             <mxPoint x="41" y="370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-46" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
+          <mxGeometry x="45" y="562" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-7" value="S3" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="70" width="100" height="1150" as="geometry" />
@@ -124,7 +127,7 @@
         <mxCell id="xoV1Sry97TsbXiUux0vx-9" value="服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1300" y="70" width="100" height="1260" as="geometry" />
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-11" value="获取现网镜像和大资源存储信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.191;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xoV1Sry97TsbXiUux0vx-12">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-11" value="获取现网镜像和大资源存储信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="xoV1Sry97TsbXiUux0vx-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="595" y="160" as="sourcePoint" />
             <mxPoint x="780" y="160" as="targetPoint" />
@@ -217,6 +220,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="630" as="sourcePoint" />
             <mxPoint x="585" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-45" value="提交灰度资源版本号" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.191;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="637.17" as="sourcePoint" />
+            <mxPoint x="787.9099999999999" y="636" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
