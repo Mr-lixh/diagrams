@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T09:41:55.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LnAPFlC6DMt97_ZzOG6Z" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T09:42:51.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jBRg-dEJp4euYtQDCjcF" version="19.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="485" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -187,6 +187,18 @@
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-39" value="维护版本记录" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="822" y="545.69" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-40" value="查询patch资源同步状态" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.191;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="525.17" as="sourcePoint" />
+            <mxPoint x="786.9099999999999" y="524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-41" value="返回资源同步状态" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="594.9999999999998" y="554.3299999999999" as="sourcePoint" />
+            <mxPoint x="781" y="554" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
