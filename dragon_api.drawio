@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T09:33:32.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="O2Mjs670CithaLgELSoS" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T09:41:55.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LnAPFlC6DMt97_ZzOG6Z" version="19.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="485" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
-          <mxGeometry x="45" y="340" width="10" height="100" as="geometry" />
+          <mxGeometry x="45" y="340" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-31" value="返回patch version" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="xoV1Sry97TsbXiUux0vx-6">
           <mxGeometry relative="1" as="geometry">
@@ -143,10 +143,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-21" value="拉取镜像、下载模型资源" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="214" width="80" height="30" as="geometry" />
+          <mxGeometry x="623" y="214" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-23" value="自训练patch资源" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="619" y="278" width="80" height="30" as="geometry" />
+          <mxGeometry x="622" y="278" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-24" value="更新用户态patch资源" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -174,6 +174,19 @@
             <mxPoint x="795.9999999999998" y="512.3299999999999" as="sourcePoint" />
             <mxPoint x="987.77" y="512.6400000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-38" value="" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.945;entryY=0.649;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795.55" y="537.69" as="sourcePoint" />
+            <mxPoint x="795" y="586" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820.55" y="537.69" />
+              <mxPoint x="820.55" y="585.69" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-39" value="维护版本记录" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="822" y="545.69" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
