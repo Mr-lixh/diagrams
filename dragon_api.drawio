@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T12:24:16.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="YwElxzUWJlu9T_zSs_9Q" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T12:27:25.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="v_4KPL-yW1Bpdz7mLStU" version="19.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="757" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
         <mxCell id="xoV1Sry97TsbXiUux0vx-1" value="Dragon平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="69" width="100" height="1201" as="geometry" />
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-1">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-1">
           <mxGeometry x="45" y="75" width="10" height="885" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-17" value="" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.945;entryY=0.649;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" edge="1" parent="xoV1Sry97TsbXiUux0vx-1">
@@ -79,7 +79,7 @@
         <mxCell id="xoV1Sry97TsbXiUux0vx-6" value="Dragon_API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="69" width="100" height="981" as="geometry" />
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
           <mxGeometry x="45" y="91" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-29" value="提交用户态资源s3信息及全量描述" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.191;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xoV1Sry97TsbXiUux0vx-6">
@@ -88,7 +88,7 @@
             <mxPoint x="46.909999999999854" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
           <mxGeometry x="45" y="340" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-31" value="返回patch version" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="xoV1Sry97TsbXiUux0vx-6">
@@ -97,7 +97,7 @@
             <mxPoint x="41" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-46" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-46" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
           <mxGeometry x="45" y="569" width="10" height="331" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-47" value="查询应用的状态" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="xoV1Sry97TsbXiUux0vx-6" target="xoV1Sry97TsbXiUux0vx-8">
@@ -109,7 +109,7 @@
         <mxCell id="xoV1Sry97TsbXiUux0vx-7" value="S3" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="70" width="100" height="1150" as="geometry" />
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-7">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-7">
           <mxGeometry x="45" y="275" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-26" value="返回状态" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;entryX=0.53;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="xoV1Sry97TsbXiUux0vx-7">
@@ -124,7 +124,7 @@
             <mxPoint x="46.999999999999886" y="357" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-7">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-7">
           <mxGeometry x="45" y="357" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-55" value="回调更新状态" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="xoV1Sry97TsbXiUux0vx-7">
@@ -136,19 +136,19 @@
         <mxCell id="xoV1Sry97TsbXiUux0vx-8" value="部署平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="70" width="100" height="1190" as="geometry" />
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-56" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-8">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-56" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-8">
           <mxGeometry x="45" y="577" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-57" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-8">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-57" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-8">
           <mxGeometry x="45" y="642" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-58" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-8">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-58" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-8">
           <mxGeometry x="45" y="774" width="10" height="76" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-9" value="服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1300" y="70" width="100" height="1260" as="geometry" />
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-59" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-9">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-59" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-9">
           <mxGeometry x="45" y="774" width="10" height="76" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-11" value="获取现网镜像和大资源存储信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="xoV1Sry97TsbXiUux0vx-6">
@@ -193,7 +193,7 @@
             <mxPoint x="987" y="483" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-36" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-36" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="985" y="483" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-37" value="返回信息" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;entryX=0.077;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
