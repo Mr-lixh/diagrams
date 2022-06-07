@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T12:08:09.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7kNKii57-vaFDlyxR6f5" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T12:19:33.624Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="F5oy8h_nbMh5xDlVJwv1" version="19.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="757" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-46" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-6">
-          <mxGeometry x="45" y="569" width="10" height="131" as="geometry" />
+          <mxGeometry x="45" y="569" width="10" height="311" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-47" value="查询应用的状态" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="xoV1Sry97TsbXiUux0vx-6" target="xoV1Sry97TsbXiUux0vx-8">
           <mxGeometry relative="1" as="geometry">
@@ -127,11 +127,29 @@
         <mxCell id="xoV1Sry97TsbXiUux0vx-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-7">
           <mxGeometry x="45" y="357" width="10" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-55" value="回调更新状态" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="xoV1Sry97TsbXiUux0vx-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-145.64999999999998" y="850" as="sourcePoint" />
+            <mxPoint x="245.6500000000001" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-8" value="部署平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="70" width="100" height="1190" as="geometry" />
         </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-56" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-8">
+          <mxGeometry x="45" y="577" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-57" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-8">
+          <mxGeometry x="45" y="642" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-58" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-8">
+          <mxGeometry x="45" y="774" width="10" height="76" as="geometry" />
+        </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-9" value="服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1300" y="70" width="100" height="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-59" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xoV1Sry97TsbXiUux0vx-9">
+          <mxGeometry x="45" y="774" width="10" height="76" as="geometry" />
         </mxCell>
         <mxCell id="xoV1Sry97TsbXiUux0vx-11" value="获取现网镜像和大资源存储信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="xoV1Sry97TsbXiUux0vx-6">
           <mxGeometry relative="1" as="geometry">
@@ -240,11 +258,50 @@
             <mxPoint x="1182" y="676" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-49" value="返回灰度更新状态" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-50" value="获取最新部署配置" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="597.9999999999998" y="687.3299999999999" as="sourcePoint" />
-            <mxPoint x="784" y="687" as="targetPoint" />
+            <mxPoint x="796" y="712.1700000000001" as="sourcePoint" />
+            <mxPoint x="1180.5" y="712.1700000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-51" value="返回现网部署配置" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="791.7" y="741" as="sourcePoint" />
+            <mxPoint x="1183" y="741" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-52" value="" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.945;entryY=0.649;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795.55" y="770.0000000000002" as="sourcePoint" />
+            <mxPoint x="795" y="818.31" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820.55" y="770" />
+              <mxPoint x="820.55" y="818" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-53" value="渲染部署配置，更新patch配置为最新" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="822" y="778" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-54" value="灰度更新一个节点" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="796" y="843.1700000000001" as="sourcePoint" />
+            <mxPoint x="1180.5" y="843.1700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-60" value="" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.92;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" edge="1" parent="1" target="xoV1Sry97TsbXiUux0vx-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1355.55" y="844.0000000000002" as="sourcePoint" />
+            <mxPoint x="1355" y="892.31" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1381" y="844" />
+              <mxPoint x="1381" y="920" />
+              <mxPoint x="1354" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoV1Sry97TsbXiUux0vx-61" value="服务加载本地patch和模型资源" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1382" y="870" width="108" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
