@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T12:28:28.329Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="2lzBrKDaF04RYqbJW9qh" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T12:30:20.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="TfGFXxK690xN1uAhtko7" version="19.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
             <mxPoint x="585" y="635" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xoV1Sry97TsbXiUux0vx-45" value="提交灰度资源版本号" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="xoV1Sry97TsbXiUux0vx-6">
+        <mxCell id="xoV1Sry97TsbXiUux0vx-45" value="提交灰度资源版本号、service" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="xoV1Sry97TsbXiUux0vx-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="596" y="637.17" as="sourcePoint" />
             <mxPoint x="787.9099999999999" y="636" as="targetPoint" />
