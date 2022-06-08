@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T04:56:27.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="rdN3W1ba8LON5INhYBT0" version="19.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-08T04:56:42.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="uHSN-qC0jcsV1LiwpocF" version="19.0.2" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -476,7 +476,7 @@
         <mxCell id="AJQjmvWMt2mCE4IzMNHh-88" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="AJQjmvWMt2mCE4IzMNHh-6">
           <mxGeometry x="45" y="930" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AJQjmvWMt2mCE4IzMNHh-92" value="发送需要发布的资源版本号" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="AJQjmvWMt2mCE4IzMNHh-6">
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-92" value="发送需要发布的资源版本号" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;endFill=0;" edge="1" parent="AJQjmvWMt2mCE4IzMNHh-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-144.50000000000023" y="1047" as="sourcePoint" />
             <mxPoint x="49" y="1047" as="targetPoint" />
