@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T04:56:42.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="uHSN-qC0jcsV1LiwpocF" version="19.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-08T04:57:37.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gAS_W3RFizxZOHzsxTeZ" version="19.0.2" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -515,6 +515,9 @@
         <mxCell id="AJQjmvWMt2mCE4IzMNHh-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="AJQjmvWMt2mCE4IzMNHh-23">
           <mxGeometry x="45" y="577" width="10" height="223" as="geometry" />
         </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-96" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="AJQjmvWMt2mCE4IzMNHh-23">
+          <mxGeometry x="45" y="1128" width="10" height="223" as="geometry" />
+        </mxCell>
         <mxCell id="AJQjmvWMt2mCE4IzMNHh-32" value="获取现网镜像和大资源存储信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="AJQjmvWMt2mCE4IzMNHh-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="365" y="160" as="sourcePoint" />
@@ -689,6 +692,18 @@
         </mxCell>
         <mxCell id="AJQjmvWMt2mCE4IzMNHh-95" value="维护资源列表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="595" y="1138.04" width="99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-97" value="定期获取最新的资源列表" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=block;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="564.35" y="1200" as="sourcePoint" />
+            <mxPoint x="955.65" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-98" value="返回全量的资源信息，包含s3下载信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="562.9999999999998" y="1237" as="sourcePoint" />
+            <mxPoint x="947.5" y="1237" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
