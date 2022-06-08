@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T04:57:37.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gAS_W3RFizxZOHzsxTeZ" version="19.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-08T04:58:23.280Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Kl3YS90ft9Mn8QkUiUbb" version="19.0.2" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -619,7 +619,7 @@
             <mxPoint x="952" y="679" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AJQjmvWMt2mCE4IzMNHh-50" value="返回全量的资源信息，包含s3下载信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1">
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-50" value="返回全量的资源信息，包含s3下载信息" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="566" y="709.1700000000001" as="sourcePoint" />
             <mxPoint x="950.5" y="709.1700000000001" as="targetPoint" />
@@ -656,7 +656,7 @@
             <mxPoint x="954.3" y="832.45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AJQjmvWMt2mCE4IzMNHh-84" value="返回状态" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1">
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-84" value="返回状态" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="559.9999999999998" y="870.0000000000001" as="sourcePoint" />
             <mxPoint x="944.5" y="870.0000000000001" as="targetPoint" />
@@ -699,11 +699,24 @@
             <mxPoint x="955.65" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AJQjmvWMt2mCE4IzMNHh-98" value="返回全量的资源信息，包含s3下载信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1">
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-98" value="返回全量的资源信息，包含s3下载信息" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="562.9999999999998" y="1237" as="sourcePoint" />
             <mxPoint x="947.5" y="1237" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-99" value="" style="endArrow=block;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.945;entryY=0.649;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="954.5500000000002" y="1250.04" as="sourcePoint" />
+            <mxPoint x="954" y="1298.35" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="979.55" y="1250.04" />
+              <mxPoint x="979.55" y="1298.04" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-100" value="和本地资源进行对比" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="985" y="1258.04" width="119" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
