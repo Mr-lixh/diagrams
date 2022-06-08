@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T04:50:54.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Fommnv2iv9tSO2s4cgun" version="19.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-08T04:53:51.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CGi-97O9G2Olbh_wODRx" version="19.0.2" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -453,13 +453,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AJQjmvWMt2mCE4IzMNHh-11" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="AJQjmvWMt2mCE4IzMNHh-6">
-          <mxGeometry x="45" y="569" width="10" height="331" as="geometry" />
+          <mxGeometry x="45" y="569" width="10" height="301" as="geometry" />
         </mxCell>
         <mxCell id="AJQjmvWMt2mCE4IzMNHh-12" value="控制节点灰度，服务根据环境变量确定" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="AJQjmvWMt2mCE4IzMNHh-6" target="AJQjmvWMt2mCE4IzMNHh-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="578.1700000000001" as="sourcePoint" />
             <mxPoint x="248.5" y="578.1700000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-87" value="下线灰度节点" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="AJQjmvWMt2mCE4IzMNHh-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-145.50000000000023" y="930" as="sourcePoint" />
+            <mxPoint x="48" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-88" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="AJQjmvWMt2mCE4IzMNHh-6">
+          <mxGeometry x="45" y="930" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AJQjmvWMt2mCE4IzMNHh-17" value="S3" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="70" width="100" height="1450" as="geometry" />
@@ -633,6 +642,24 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="559.9999999999998" y="870.0000000000001" as="sourcePoint" />
             <mxPoint x="944.5" y="870.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-85" value="回调灰度更新状态及服务IP:PORT" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=block;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365.9999999999998" y="903.3299999999999" as="sourcePoint" />
+            <mxPoint x="552" y="903" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-86" value="返回状态" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360.9999999999998" y="937" as="sourcePoint" />
+            <mxPoint x="554.5" y="937" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJQjmvWMt2mCE4IzMNHh-89" value="返回状态" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;startArrow=open;startFill=0;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.9999999999998" y="1030.33" as="sourcePoint" />
+            <mxPoint x="556" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
