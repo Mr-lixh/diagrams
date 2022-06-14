@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T02:17:45.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="3vW7qg3IaHKBNY6Ih20z" version="19.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-14T02:19:05.097Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ar5XJoowhamfROHM5_Sv" version="19.0.2" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="no-vk-model">
     <mxGraphModel dx="1426" dy="1938" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-dDgIf0eefTNvo3IIfmz-61" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="110" width="540" height="300" as="geometry" />
+          <mxGeometry x="-10" y="110" width="540" height="290" as="geometry" />
         </mxCell>
         <mxCell id="-dDgIf0eefTNvo3IIfmz-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-dDgIf0eefTNvo3IIfmz-4">
           <mxGeometry relative="1" as="geometry">
@@ -221,10 +221,10 @@
           <mxGeometry x="144" y="185" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-dDgIf0eefTNvo3IIfmz-30" value="NODE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="159" y="358" width="60" height="30" as="geometry" />
+          <mxGeometry x="159" y="347" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-dDgIf0eefTNvo3IIfmz-31" value="NODE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="276" y="358" width="60" height="30" as="geometry" />
+          <mxGeometry x="276" y="347" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-dDgIf0eefTNvo3IIfmz-34" value="应用扩缩" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="126" y="227" width="60" height="30" as="geometry" />
@@ -275,10 +275,10 @@
           <mxGeometry x="251" y="197" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-dDgIf0eefTNvo3IIfmz-60" value="Virtual-Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="381" y="358" width="90" height="30" as="geometry" />
+          <mxGeometry x="381" y="347" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-dDgIf0eefTNvo3IIfmz-62" value="GZ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry y="120" width="60" height="30" as="geometry" />
+        <mxCell id="-dDgIf0eefTNvo3IIfmz-62" value="IDC_CLUSTER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="120" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
