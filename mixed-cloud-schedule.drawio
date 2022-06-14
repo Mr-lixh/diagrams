@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T02:50:31.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CfmEWEM2BytSUiL6_kb-" version="19.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-14T03:34:08.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Jh-_fOxI6Rzc2Kox09Vx" version="19.0.2" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="no-vk-model">
     <mxGraphModel dx="1426" dy="1938" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,8 +297,8 @@
         <mxCell id="-dDgIf0eefTNvo3IIfmz-68" value="Virtual-Node的主要功能：&lt;br&gt;1、VK-Node配额管理&lt;br&gt;2、负载Pod转换并部署到lower集群&lt;br&gt;3、Pod状态同步&lt;br&gt;4、节点状态同步&lt;br&gt;5、公有云客户端管理&lt;br&gt;6、ECS实例创建和销毁&lt;br&gt;7、其他负载转换并部署，configmap等&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="551" y="340" width="219" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="-dDgIf0eefTNvo3IIfmz-70" value="MutatingWebhook的主要功能：&lt;br&gt;1、对可以进行" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="551" y="195" width="209" height="120" as="geometry" />
+        <mxCell id="-dDgIf0eefTNvo3IIfmz-70" value="MutatingWebhook的主要功能：&lt;br&gt;（通过label匹配或者webhook读取数据库维护需要适配的应用）&lt;br&gt;1、对可以进行混合云部署的能力，添加VK污点容忍，添加VK节点的亲和性(OR)，添加节点软反亲和性（一次修改可以覆盖所有场景）&lt;br&gt;2、对于pod间的亲和性/反亲和性，" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="551" y="195" width="219" height="135" as="geometry" />
         </mxCell>
         <mxCell id="-dDgIf0eefTNvo3IIfmz-79" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="345" y="517" width="75" height="105" as="geometry" />
